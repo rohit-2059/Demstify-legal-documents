@@ -47,16 +47,30 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
-        },
+        // AI Theme Colors
+        "electric-blue": "hsl(var(--electric-blue))",
+        "neon-green": "hsl(var(--neon-green))",
+        "cyber-purple": "hsl(var(--cyber-purple))",
+        "neural-orange": "hsl(var(--neural-orange))",
+      },
+      fontFamily: {
+        mono: ['JetBrains Mono', 'ui-monospace', 'monospace'],
+        inter: ['Inter', 'system-ui', 'sans-serif'],
+      },
+      backgroundImage: {
+        'gradient-primary': 'var(--gradient-primary)',
+        'gradient-card': 'var(--gradient-card)',
+        'gradient-glow': 'var(--gradient-glow)',
+      },
+      boxShadow: {
+        'glow': 'var(--shadow-glow)',
+        'card': 'var(--shadow-card)',
+        'intense': 'var(--shadow-intense)',
+      },
+      animation: {
+        'neural-pulse': 'neural-pulse 4s ease-in-out infinite alternate',
+        'typing': 'typing 3.5s steps(40, end)',
+        'blink-caret': 'blink-caret 0.75s step-end infinite',
       },
       borderRadius: {
         lg: "var(--radius)",
