@@ -1,73 +1,53 @@
-# Welcome to your Lovable project
+# Contract Bot - Legal AI Assistant
 
-## Project info
+> **Demystify Legal Documents with AI**
 
-**URL**: https://lovable.dev/projects/aa048f2e-f812-4efe-9812-cd6557d92f7a
+A comprehensive AI-powered legal assistant platform that simplifies contracts, policies, and legal documents to help users make smarter, safer decisions.
 
-## How can I edit this code?
+## 🌟 Features
 
-There are several ways of editing your application.
+### Core AI Tools
 
-**Use Lovable**
+- **📄 Document Summarization & Risk Detection**  
+  AI-powered summaries, risk analysis, Q&A, and visual insights for any legal document
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/aa048f2e-f812-4efe-9812-cd6557d92f7a) and start prompting.
+- **📁 Documentation Pathway**  
+  Step-by-step guidance on required documents for any legal case or process
 
-Changes made via Lovable will be committed automatically to this repo.
+- **⚖️ Law & Contract Guidance**  
+  Expert advice on contract fulfillment issues plus insights from similar cases
 
-**Use your preferred IDE**
+- **🔄 Document & Policy Comparison**  
+  Compare old vs new documents, laws, and policies with AI-powered analysis
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🚀 Live Demo
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+**🌐 [View Live Application](https://genai-bfpskv3js-rohit-khandelwals-projects-5ac36efe.vercel.app)**
 
-Follow these steps:
+## 🛠️ Technology Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **Frontend**: React 18 + TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS + ShadCN UI
+- **Components**: Radix UI primitives
+- **Routing**: React Router DOM
+- **Deployment**: Vercel
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🎯 Project Goals
 
-# Step 3: Install the necessary dependencies.
-npm i
+This platform aims to:
+- **Simplify** complex legal language for everyday users
+- **Democratize** access to legal document understanding
+- **Reduce** risks through AI-powered analysis
+- **Streamline** legal processes with guided workflows
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 📱 User Experience
 
-**Edit a file directly in GitHub**
+- **Modern Design**: Futuristic AI-themed interface with smooth animations
+- **Responsive**: Optimized for desktop, tablet, and mobile devices  
+- **Intuitive Navigation**: Smooth scrolling and clear call-to-action buttons
+- **Performance**: Fast loading with optimized Vite build
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🔒 Legal Disclaimer
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/aa048f2e-f812-4efe-9812-cd6557d92f7a) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This AI assistant provides information only, not legal advice. Always consult qualified legal professionals for specific legal matters.
