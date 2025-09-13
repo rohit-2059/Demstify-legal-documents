@@ -68,7 +68,7 @@ const UnifiedValueSection = () => {
               </div>
               
               <div className="absolute bottom-4 right-4 bg-card/80 backdrop-blur-sm border border-neon-green/30 rounded-lg px-3 py-1">
-                <span className="text-xs font-mono text-neon-green">99.9% ACCURACY</span>
+                <span className="text-xs font-mono text-neon-green">Accurate</span>
               </div>
 
               {/* Glow effect on hover */}

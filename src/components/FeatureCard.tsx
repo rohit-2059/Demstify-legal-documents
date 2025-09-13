@@ -8,9 +8,15 @@ interface FeatureCardProps {
   description: string;
   gradient: string;
   delay?: number;
+  url?: string;
 }
 
-const FeatureCard = ({ icon: Icon, title, description, gradient, delay = 0 }: FeatureCardProps) => {
+const FeatureCard = ({ icon: Icon, title, description, gradient, delay = 0, url }: FeatureCardProps) => {
+  const handleExploreClick = () => {
+    if (url) {
+      window.location.href = url;
+    }
+  };
   return (
     <Card className={`group relative p-8 bg-gradient-card border-border/50 hover-lift hover:border-electric-blue/50 transition-all duration-500 overflow-hidden`}
           style={{ animationDelay: `${delay}ms` }}>
@@ -39,6 +45,8 @@ const FeatureCard = ({ icon: Icon, title, description, gradient, delay = 0 }: Fe
           variant="feature" 
           size="sm"
           className="mt-6 group-hover:bg-electric-blue/20"
+          onClick={handleExploreClick}
+          disabled={!url}
         >
           Explore
           <span className="ml-2 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-300">

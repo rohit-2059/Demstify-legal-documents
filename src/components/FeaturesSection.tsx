@@ -9,6 +9,7 @@ const FeaturesSection = () => {
       description: "AI summaries, risk detection, Q&A, and visuals to understand any document instantly.",
       gradient: "bg-gradient-to-br from-electric-blue/20 to-cyber-purple/20",
       delay: 0,
+      url:"https://legallm.netlify.app/",
     },
     {
       icon: FolderOpen,
@@ -16,6 +17,7 @@ const FeaturesSection = () => {
       description: "Step-by-step guidance on required documents for any legal case or process.",
       gradient: "bg-gradient-to-br from-neon-green/20 to-electric-blue/20",
       delay: 100,
+        url: "https://legal-documents.onrender.com/",
     },
     {
       icon: Scale,
@@ -23,6 +25,7 @@ const FeaturesSection = () => {
       description: "What to do if contracts aren't fulfilled plus insights from similar cases.",
       gradient: "bg-gradient-to-br from-cyber-purple/20 to-neural-orange/20",
       delay: 200,
+      url :"https://law-guidance-app-frontend.vercel.app",
     },
     {
       icon: RefreshCw,
@@ -30,11 +33,12 @@ const FeaturesSection = () => {
       description: "Compare old vs new documents, laws, and policies with AI-powered analysis.",
       gradient: "bg-gradient-to-br from-neural-orange/20 to-neon-green/20",
       delay: 300,
+      url : "https://legal-document-comparison.onrender.com",
     },
   ];
 
   return (
-    <section className="py-24 px-6 relative">
+    <section id="features" className="py-24 px-6 relative">
       {/* Background Elements */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-electric-blue/5 to-transparent" />
       

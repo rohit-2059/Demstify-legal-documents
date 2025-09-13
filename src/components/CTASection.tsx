@@ -1,6 +1,15 @@
 import { Button } from "@/components/ui/button";
 
 const CTASection = () => {
+  const scrollToFeatures = () => {
+    const featuresSection = document.getElementById('features');
+    if (featuresSection) {
+      featuresSection.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  };
   return (
     <section className="py-24 px-6 relative overflow-hidden">
       {/* Background Effects */}
@@ -30,6 +39,7 @@ const CTASection = () => {
               variant="hero" 
               size="xl"
               className="group relative overflow-hidden min-w-[200px]"
+              onClick={scrollToFeatures}
             >
               <span className="relative z-10 flex items-center">
                 Start Free

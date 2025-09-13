@@ -20,6 +20,16 @@ const HeroSection = () => {
     return () => clearInterval(timer);
   }, []);
 
+  const scrollToFeatures = () => {
+    const featuresSection = document.getElementById('features');
+    if (featuresSection) {
+      featuresSection.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  };
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden neural-bg">
       {/* Background Image with Overlay */}
@@ -59,6 +69,7 @@ const HeroSection = () => {
             variant="hero" 
             size="xl"
             className="group relative overflow-hidden"
+            onClick={scrollToFeatures}
           >
             <span className="relative z-10">Get Started</span>
             <div className="absolute inset-0 bg-gradient-to-r from-electric-blue to-cyber-purple opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -68,6 +79,7 @@ const HeroSection = () => {
             variant="heroSecondary" 
             size="xl"
             className="group"
+            onClick={scrollToFeatures}
           >
             <span>Explore Features</span>
             <div className="ml-2 group-hover:translate-x-1 transition-transform duration-300">→</div>
@@ -81,7 +93,7 @@ const HeroSection = () => {
             <div className="text-sm text-muted-foreground">Accuracy</div>
           </div>
           <div className="text-center">
-            <div className="text-2xl font-mono font-bold text-neon-green">10K+</div>
+            <div className="text-2xl font-mono font-bold text-neon-green">100+</div>
             <div className="text-sm text-muted-foreground">Documents</div>
           </div>
           <div className="text-center">
