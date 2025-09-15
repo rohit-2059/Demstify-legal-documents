@@ -10,15 +10,19 @@ A comprehensive AI-powered legal assistant platform that simplifies contracts, p
 
 - **📄 Document Summarization & Risk Detection**  
   AI-powered summaries, risk analysis, Q&A, and visual insights for any legal document
+  🔗 
 
 - **📁 Documentation Pathway**  
   Step-by-step guidance on required documents for any legal case or process
+  🔗
 
 - **⚖️ Law & Contract Guidance**  
   Expert advice on contract fulfillment issues plus insights from similar cases
+  🔗
 
 - **🔄 Document & Policy Comparison**  
   Compare old vs new documents, laws, and policies with AI-powered analysis
+  🔗
 
 ## 🚀 Live Demo
 
