@@ -22,7 +22,7 @@ A comprehensive AI-powered legal assistant platform that simplifies contracts, p
 
 - **🔄 Document & Policy Comparison**  
   Compare old vs new documents, laws, and policies with AI-powered analysis
-  🔗
+  🔗 https://github.com/Yashwatts/legal-document-comparison
 
 ## 🚀 Live Demo
 
