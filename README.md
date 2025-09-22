@@ -10,11 +10,11 @@ A comprehensive AI-powered legal assistant platform that simplifies contracts, p
 
 - **📄 Document Summarization & Risk Detection**  
   AI-powered summaries, risk analysis, Q&A, and visual insights for any legal document
-  🔗 
+  🔗 https://github.com/sobiswriter/LegalLM
 
 - **📁 Documentation Pathway**  
   Step-by-step guidance on required documents for any legal case or process
-  🔗
+  🔗 https://github.com/rohit-2059/Legal-Task-Management
 
 - **⚖️ Law & Contract Guidance**  
   Expert advice on contract fulfillment issues plus insights from similar cases
