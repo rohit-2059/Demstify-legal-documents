@@ -18,7 +18,7 @@ A comprehensive AI-powered legal assistant platform that simplifies contracts, p
 
 - **⚖️ Law & Contract Guidance**  
   Expert advice on contract fulfillment issues plus insights from similar cases
-  🔗
+  🔗 https://github.com/Yashwatts/law-guidance-app
 
 - **🔄 Document & Policy Comparison**  
   Compare old vs new documents, laws, and policies with AI-powered analysis
